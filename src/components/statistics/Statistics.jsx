@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
-import { StatItem } from './statisticItem/StatisticItem';
+import { StatisticItem } from './statisticItem/StatisticItem';
 
 export const Statistics = ({ stats, title }) => {
   return (
@@ -8,7 +8,7 @@ export const Statistics = ({ stats, title }) => {
       <h2 className={css.title}>{title}</h2>
       <ul className={css.statList}>
         {stats.map(el => (
-          <StatItem key={el.id} label={el.label} percentage={el.percentage} />
+          <StatisticItem key={el.id} label={el.label} percentage={el.percentage} />
         ))}
       </ul>
     </section>
