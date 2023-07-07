@@ -13,7 +13,7 @@ th {
 	border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 th:last-child {
-border-right: none;
+ border-right: none;
 }
 td {
   color: #696969;
